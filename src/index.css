@@ -100,3 +100,16 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+@media (max-width: 380px) {
+  .section,
+  .main,
+  .interest-section,
+  .footer,
+  .contact-img {
+    background-color: #002;
+    padding: 1em;
+    width: 100%;
+    margin: auto;
+  }
+}
